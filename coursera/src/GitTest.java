@@ -1,5 +1,5 @@
 public class GitTest {
 
-    //It is for the test
+    //It is for the second test
 
 }
