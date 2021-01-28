@@ -12,7 +12,7 @@
  * if it is smaller, than we can move the middle point the left half of the array. Also we need to move the last position of the search area to the middle point - 1.
  * if it is bigger, than we can invert this action.
  * And we need to keep doing this action recursively, until we find the matching data, or we reached to the last position.
- * 
+ *
  */
 
 public class BinarySearch {
