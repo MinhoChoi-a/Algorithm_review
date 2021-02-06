@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm_review.iml" filepath="$PROJECT_DIR$/.idea/Algorithm_review.iml" />
       <module fileurl="file://$PROJECT_DIR$/coursera/coursera.iml" filepath="$PROJECT_DIR$/coursera/coursera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study_group/study_group.iml" filepath="$PROJECT_DIR$/study_group/study_group.iml" />
     </modules>
   </component>
 </project>
