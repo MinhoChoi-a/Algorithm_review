@@ -1,36 +1,30 @@
 /*
-Int x
+-BEST SOLUTION-
 
-we can get length
+From the input, we can get length of the element by converting to String value.
+then we can use that length info to get the position of each number
 
-we can use that length info to get the position of each number
-
-1234 input
+ex. 1234 input
 
 i = position started with 0
 
+and we can convert the number to this format
 4 * 10^i + 3*10^(i+1) +
 
-keep increase the exponent number
+keep increase the exponent number until the length of the input
 
-a =x % 10^i
-
+a = x % 10^n (n started with 1)
 b += a * 10^(length-1)
- */
 
+*/
 
 public class String_reverse {
 
-    public static void main(String[] args) {
+    static int reverseNumber(int x) {
 
-        int x = -2147483648;
+        //int x = -2147483648;
 
         int check = 1;
-
-        if(x <= Math.pow(-2,32)) {
-            System.out.println(0);
-            return;
-        }
 
         if(x < 0) {
             check = check * -1;
@@ -63,12 +57,10 @@ public class String_reverse {
         fin = fin * check;
 
         if(fin < Math.pow(-2,31) || fin > Math.pow(2,31)-1) {
-            System.out.println(0);
-            //return 0;
+            return 0;
         }
 
-        System.out.println(fin.intValue());
-        //return fin.intValue();
+        return fin.intValue();
 
     }
 
