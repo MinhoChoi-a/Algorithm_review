@@ -15,7 +15,7 @@
  *
  */
 
-public class array_swap {
+public class Array_swap {
 
     static int[] swap(int array[], int e) {
 
