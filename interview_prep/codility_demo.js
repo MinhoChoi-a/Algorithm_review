@@ -8,7 +8,7 @@ function solution(A) {
     //get unique value
     var uniqArray = [...new Set(sortedArray)];
 
-    //find the first element that is bigger than or equal to 0
+    //find the position of the first element that is bigger than 0
     var index = uniqArray.findIndex( (num) => {return num>0});
 
     var smallestInteger;
