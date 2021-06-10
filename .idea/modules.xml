@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm_review.iml" filepath="$PROJECT_DIR$/.idea/Algorithm_review.iml" />
-      <module fileurl="file://$PROJECT_DIR$/coding/coding.iml" filepath="$PROJECT_DIR$/coding/coding.iml" />
       <module fileurl="file://$PROJECT_DIR$/coursera/coursera.iml" filepath="$PROJECT_DIR$/coursera/coursera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intervew_prep_java/intervew_prep_java.iml" filepath="$PROJECT_DIR$/intervew_prep_java/intervew_prep_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/study_group/study_group.iml" filepath="$PROJECT_DIR$/study_group/study_group.iml" />
     </modules>
   </component>
